@@ -1,0 +1,30 @@
+This is the C++ program to add two number using class:
+#include<iostream>
+using namespace std;
+
+class Add{
+    private:
+    int x,y, sum;
+    
+    public:
+    void input(){
+        cout<<"Enter First Number = "<<endl;
+        cin>>x;
+        cout<<"Enter Second Number = "<<endl;
+        cin>>y;
+    }
+    int calculate(){
+        sum = x+y;
+        return sum;
+    }
+    void display(){
+        cout<<"The Sum of "<<x<< " and " <<y<<" is = "<<"<"<<sum<<">"<<endl;
+    }
+};
+int main(){
+    Add add;
+    add.input();
+    add.calculate();
+    add.display();
+return 0;
+}
