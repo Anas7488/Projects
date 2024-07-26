@@ -17,7 +17,7 @@ class Add{
         sum = x+y;
         return sum;
     }
-    void display(){
+    voi display(){
         cout<<"The Sum of "<<x<< " and " <<y<<" is = "<<"<"<<sum<<">"<<endl;
     }
 };
